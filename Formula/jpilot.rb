@@ -25,9 +25,15 @@ class Jpilot < Formula
 
   def install
     # Regenerate all the automake/autoconf files
+    # (we skip the default configure step, as we need to run configure
+    #  with additional arguments, or it will fail to find pilot-link)
+    #
+    ENV["NOCONFIGURE"] = "true"
     system "./autogen.sh"  
 
+    # Run configure with additional arguments
     system "./configure", "--prefix=#{prefix}",
+                          "--with-pilot-prefix=#{HOMEBREW_PREFIX}",
                           "--with-openssl"
     system "make"
     system "make", "install"
