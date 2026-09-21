@@ -34,3 +34,15 @@ tap "naosnz/palm-pilot"
 brew "pilot-link"
 brew "jpilot"
 ```
+## Licensing
+
+[pilot-link](https://github.com/desrod/pilot-link) is
+available under a [GPL v2 
+license](https://github.com/desrod/pilot-link/blob/main/COPYING).
+
+[J-Pilot](https://github.com/juddmon/jpilot/) is also available 
+under a [GPL v2 license](https://github.com/juddmon/jpilot/blob/master/COPYING).
+
+These Homebrew Formula to facilitate installing it is available under
+a MIT License; see the [LICENSE](LICENSE) file for the text of the
+MIT License.
