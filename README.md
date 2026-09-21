@@ -1,18 +1,36 @@
-# Naosnz Palm-pilot
+# Pilot-Link / J-Pilot for HomeBrew
+
+This is build Formula for Homebrew for:
+
+*   [pilot-link](https://github.com/desrod/pilot-link)
+*   [J-Pilot](https://www.jpilot.org/)
+
+which are tools for interacting with a Palm Pilot (eg, from the late 1990s
+or early 2000s).  In particular it is built with the crypto features
+enabled, so that we can use the password store integration to access
+old password databases.
+
+The current versions of `pilot-link` (0.15) and `J-Pilot` (2.1.0) are used
+to simplify building on modern macOS.
+
+(The Formula names deliberately match the ones used in Macports --
+[`pilot-link`](https://ports.macports.org/port/pilot-link/) and
+[`jpilot`](https://ports.macports.org/port/jpilot/) -- for simplicity
+of conversion.  Although MacPorts currently only has the older pilot-link
+and J-Pilot from before the GTK3+ conversion.)
 
 ## How do I install these formulae?
 
-`brew install naosnz/palm-pilot/<formula>`
+`brew install naosnz/palm-pilot/pilot-link`
+`brew install naosnz/palm-pilot/jpilot`
 
-Or `brew tap naosnz/palm-pilot` and then `brew install <formula>`.
+Or `brew tap naosnz/palm-pilot` and then `brew install pilot-link` and
+`brew install jpilot`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "naosnz/palm-pilot"
-brew "<formula>"
+brew "pilot-link"
+brew "jpilot"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
