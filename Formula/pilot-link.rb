@@ -2,11 +2,11 @@
 #
 # https://github.com/desrod/pilot-link
 #
-# Written by Ewen McNeill <ewen@naos.co.nz>, 2026-02-21
+# Written by Ewen McNeill <ewen@naos.co.nz>, 2026-09-21
 # Updated by Ewen McNeill <ewen@naos.co.nz>, 2026-09-21
 #
 class PilotLink < Formula
-  desc "SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension"
+  desc "Library for interacting with Palm Pilot over serial"
   homepage "https://github.com/desrod/pilot-link"
   url "https://github.com/desrod/pilot-link/releases/download/v0.15.0/pilot-link-0.15.0.tar.gz"
   sha256 "7b3140d6c02cfe5865129fe0287b070dfcf9d2509e30b3e0e1b982e2383cc2b3"
