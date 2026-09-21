@@ -1,7 +1,5 @@
 # Pilot-Link / J-Pilot for HomeBrew
 
-*NOTE*: J-Pilot Formula still to be added
-
 This is build Formula for Homebrew for:
 
 *   [pilot-link](https://github.com/desrod/pilot-link)
@@ -17,6 +15,13 @@ to simplify building on modern macOS.
 
 This has been only very lightly tested as the only feature I still use
 is accessing password databases.
+
+The major change between J-Pilot 1.8.2 (2014) and J-Pilot 2.0.0
+(2021) is the port from GTK2 to GTK+3 (GUI library).  The major
+change from J-Pilot 2.0.x to J-Pilot 2.1.x is porting to modern
+tooling (unfortunately done with a bunch of Claude Opus code
+generation, but not exclusively; at least the original developer is
+still involved).
 
 (The Formula names deliberately match the ones used in Macports --
 [`pilot-link`](https://ports.macports.org/port/pilot-link/) and
