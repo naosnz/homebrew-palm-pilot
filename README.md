@@ -26,15 +26,19 @@ and J-Pilot from before the GTK3+ conversion.)
 
 ## How do I install these formulae?
 
-`brew install naosnz/palm-pilot/pilot-link`
-`brew install naosnz/palm-pilot/jpilot`
+```shell
+brew install naosnz/palm-pilot/pilot-link
+brew install naosnz/palm-pilot/jpilot
+```
 
 Or in individual steps:
 
-`brew tap naosnz/palm-pilot`
-`brew trust naosnz/palm-pilot`
-`brew install pilot-link`
-`brew install jpilot`.
+```shell
+brew tap naosnz/palm-pilot
+brew trust naosnz/palm-pilot
+brew install pilot-link
+brew install jpilot
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
@@ -44,6 +48,7 @@ trust "naosnz/palm-pilot"
 brew "pilot-link"
 brew "jpilot"
 ```
+
 ## Licensing
 
 [pilot-link](https://github.com/desrod/pilot-link) is
